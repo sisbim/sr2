@@ -224,7 +224,7 @@ p {
 } 
 
 .menu-container{ 
-  margin: 4rem 0; 
+  
   display: flex; 
   justify-content: center; 
   flex-direction: column; 
@@ -458,4 +458,5 @@ h4{
   .card-container{
         grid-template-columns: repeat(3, minmax(80px, 1fr));
     }
+
 }
