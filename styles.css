@@ -12,128 +12,7 @@ body{
     background-color: #cecece;
 }
 
-/* ========================================================== 
-++++++++++++++++++++++  NAVBAR  +++++++++++++++++++++++++++++ 
-========================================================== */ 
 
-.header-wrap{     
-  width: 100%;    
-  height: 6rem;   
-  background-color: white; 
-}     
-header{     
-  height: 100%;     
-  max-width: 120rem;   
-  margin: 0 auto;      
-  display: flex;     
-  align-items: center;     
-  justify-content: space-between;     
-  padding: 0 2.4rem;   
-  z-index: 10; 
-}     
-header > a{     
-  padding: 10px 20px;    
-  text-decoration: none;     
-  font-size: 2rem;     
-  font-weight: 500;     
-  color: #803b03;     
-  margin: 0 5px;  
-  display: flex;     
-  align-items: center;     
-  justify-content: space-between; 
-  border-radius: 10px;    
-  transition: all 0.2s ease; 
-}   
-header > a:not(:last-of-type):hover {   
-  color: #f06000;  
-  background-color: rgba(0, 0, 0, 0.1);   
-}  
-.logo{   
-  width: 12rem;  
-  margin-right: auto;   
-}   
-.logo a{  
-  cursor: pointer;  
-  width: 100%;  
-}  
-.logo a img{   
-  width: 100%;   
-  object-fit: cover;   
-  transform: translateY(2px);   
-}   
-.orderbtn{     
-  padding: 0.4rem 2.4rem;     
-  background-color: #f06000;     
-  color: white;     
-  text-decoration: none;     
-  font-size: 1.8rem;     
-  font-weight: 500;     
-  letter-spacing: 1px;     
-  border-radius: 5rem;     
-  transition: all 0.2s ease; 
-}   
-.orderbtn:hover {   
-  transform: scale(1.1);   
-}  
-#mobilenav-active, .burger-icon, .close-icon{   
-  display: none;   
-}   
-/* ====================================================== 
-++++++++++++++++ HERO SECTION +++++++++++++++++++++++++++ 
-====================================================== */ 
-.hero {   
-  position: relative;   
-  /* background-image: url(https://images.unsplash.com/photo-1552689486-f6773047d19f?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);   
-  background-size: cover;   
-  background-attachment: fixed;   
-  background-position: center; */   
-  width: 100%;   
-  height: 80vh; 
-  /* top: 0; */ 
-}   
-.hero img{   
-  /* position: absolute; */ 
-  width: 100%;   
-  height: 100%;   
-  object-fit: cover;   
-}   
-.hero_content {   
-  position: absolute;   
-  top: 50%;   
-  left: 15%;   
-  transform: translate(0%, -50%);   
-  transition: all ease 0.3s;   
-}   
-h1 {   
-  font-size: 6rem;   
-  color: #693402;   
-  line-height: 1.3;   
-  margin: 0;   
-  font-weight: 900;   
-  margin-bottom: 2rem; 
-}   
-.explore {   
-  text-align: left;   
-}   
-button {   
-  cursor: pointer;   
-  margin: 0 1rem;   
-  color: white;   
-  letter-spacing: 2px;   
-  font-size: 1.4rem;   
-  font-weight: 500;   
-  border: none;   
-  background-color: #f06000;   
-  border-radius: 3rem;   
-  width: 12rem;   
-  height: 4rem;   
-}   
-p {   
-  margin: 0;   
-  padding: 0;   
-  font-size: 1.5rem;   
-  color: #693402;   
-}   
 
 
 /* ====================== BRAND HEADER ====================== */
@@ -465,4 +344,5 @@ h4{
     }
 
 }
+
 
