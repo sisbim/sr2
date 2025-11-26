@@ -382,6 +382,9 @@ h4{
     font-size: 1.4rem;     
     padding: 0.2rem 2rem;   
   }   
+  .menu-container h1{
+        font-size: 3rem;
+    }
 
   /* .card-container{
   
@@ -447,7 +450,9 @@ h4{
         left: 0;  
         z-index: 9;
     }  
-
+    .menu-container h1{
+        font-size: 2rem;
+    }
 
     .card-container{
         grid-template-columns: repeat(4, minmax(80px, 1fr));
@@ -460,3 +465,4 @@ h4{
     }
 
 }
+
